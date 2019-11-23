@@ -1,0 +1,49 @@
+.webTitle{
+	text-align: center;
+	margin-top: 55px;
+	margin-bottom: 35px;
+	font-size: 75px;
+}
+/*틀*/
+.part{
+	background-color: #eee;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	padding: 50px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*애니 제목*/
+.part .aniTitle{
+	text-align: center;
+
+}
+/*애니 그림 사이즈*/
+.part .imgsize{
+	width: 450px;
+	height: 550px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/*꼬리말*/
+.footer{
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	background-color: #4d9fff;
+	padding: 50px;
+}
+#serif{
+	font-family: serif;
+}
+@font-face{
+	src: url("../fonts/BMJUA_ttf.ttf");
+	font-family: "Jua";
+}
+#sans-serif{
+	font-family: "Jua";
+}
