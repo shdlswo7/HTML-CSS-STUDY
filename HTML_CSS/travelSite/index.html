@@ -43,7 +43,9 @@
 			}
 			
 			if(targetToggle = 1){
+			$('#photo').hide();	
 			$('#photo').attr('src', 'images/' + targetId+'.png');
+			$('#photo').fadeIn(1500);
 			$('.menu a').css('font-weight', 'normal');
 			$('#' + targetId).css('font-weight', 'bold');
 			}
